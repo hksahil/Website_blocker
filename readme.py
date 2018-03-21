@@ -1,3 +1,8 @@
+Between working hours,it will block  ccertain websites(it will write these wesiites on hosts file available at windows/systems/drivers/etc/hosts
+and after that working hours,it will delete that websites from hosts file.
+-(To run on doule click)To automatically run a script ,save it as filename.pyw  It will automatically executed on double click.no need to go to cmd then typing python filename.py	
+-(To run it on every sartup of PC)To run a script on everytime start of computer, search TASK SCHEDULER on windows. Set it there.					       
+
 import time
 from datetime import datetime as dt
 
